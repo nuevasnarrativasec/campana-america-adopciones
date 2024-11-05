@@ -302,6 +302,9 @@ html {
     #wst {
         display: inline-block;
     }
+    .box-logos{
+        text-align: left;
+    }
     .box-portada h1{
         font-size: 3rem;
         padding: 0 20px;
