@@ -330,6 +330,11 @@ html {
     .box-numeros ul li{
         margin: 20px;
     }
-
+    .box-item h4 a{
+        font-size: 19px;
+    }
+    .box-item p{
+        font: 18px / 1.4 'actobook';
+    }
 
 }
