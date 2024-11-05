@@ -1,0 +1,310 @@
+body, 
+html {	
+    background-image: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/img/bg-main.jpg);
+    background-size: 100%;    
+    box-sizing: border-box;    
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'liquid_amber_demoregular';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/fonts/liquid-amber-regular-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/fonts/liquid-amber-regular-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actoblack';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-black-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-black-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actobold';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-bold-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-bold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actosemibold';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-semibold-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-semibold-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actobook';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-book-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-book-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actomedium';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-medium-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-medium-webfont.woff') format('woff');
+}
+@font-face {
+    font-family: 'actolight';
+    src: url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-light-webfont.woff2') format('woff2'),
+         url('https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/fonts/acto-light-webfont.woff') format('woff');
+}
+
+.clear{
+    clear: both;
+}
+#social {
+    margin: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 600;
+}
+    #social ul {
+        display: inline-block;
+        margin: 0 auto;
+        padding: 0;
+        vertical-align: middle;
+    }
+
+        #social ul li {
+            display: inline-block;
+            margin: 0 3px;
+            vertical-align: middle;
+        }
+
+            #social ul li a{
+                height: 36px;
+                width: 36px;
+            }
+
+                #fb {
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/fb-icon.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: inline-block;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+
+                #wst {
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: none;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+
+                #tw {
+                    background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
+                    background-size: 100% !important;
+                    border: none;
+                    display: inline-block;
+                    height: 36px;
+                    text-indent: -9999px;
+                    width: 36px;
+                }
+
+.box-portada{
+    text-align: center;
+}
+    .box-texto-portada{
+        margin: 0 auto;
+        margin-top: 200px;
+        max-width: 600px;
+    }
+        .box-portada h1{
+            color: #50d54b;
+            font: 64px/1 'liquid_amber_demoregular';
+            margin: 0 auto;
+            max-width: 500px;
+            text-align: center;
+        }
+        .box-portada h2{
+            color: #fff;
+            font: 18px/1.5 'actosemibold';
+            text-align: center;
+        }
+    .ctn-animacion{
+        height: 300px;
+        position: relative;
+        width: 100%;
+    }
+        .bg-nino{
+            display: inline-block;
+            left: 45%;
+            margin: 0 20px;
+            margin-top: 80px;
+            max-width: 60px;
+            position: absolute;
+
+            transition: all 4s ease-in-out;   
+        }
+            img.bg-nino.salir-nino-izquierda{
+                left: -100%;
+                opacity: 0;
+            }
+        .bg-familia{
+            display: inline-block;
+            margin: 0 20px;
+            max-width: 120px;
+            position: absolute;
+            right: 38%;
+
+            transition: all 4s ease-in-out;   
+        }
+            img.bg-familia.salir-familia-derecha{
+                right: -100%;
+                opacity: 0;
+            }
+.box-iframe{
+    margin: 80px auto 150px;
+    max-width: 800px;
+}
+.box-especial{
+
+}
+    .box-especial img{
+        display: block;
+        margin: 0 auto;
+        max-width: 250px;
+    }
+    .box-especial h3 a{
+        background-color: #50d54b;
+        border: 1px solid #50d54b;
+        border-radius: 10px;
+        color: #282723;
+        display: block;
+        font: 32px/1 'liquid_amber_demoregular';
+        margin: 40px auto;
+        max-width: 220px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+    }
+    .box-especial video{
+        border: 2px solid #fff;        
+        box-shadow: 0px 0px 15px #7f7f7f;
+        box-sizing: border-box;
+        display: block;
+        margin: 20px auto;
+        max-width: 980px;        
+    }
+.box-numeros{
+    margin: 80px auto;
+}
+    .box-numeros h4{
+        color: #fff;
+        font: 44px/1 'liquid_amber_demoregular';
+        text-align: center;
+    }
+    .box-numeros ul{
+        padding: 0;
+        text-align: center;
+    }
+        .box-numeros ul li{
+            border: 1px solid #50d54b;
+            border-radius: 10px;
+            box-sizing: border-box;
+            display: inline-block;
+            margin: 0 10px;
+            max-width: 190px;
+            padding: 10px;
+            vertical-align: top;
+        }
+            .box-numeros ul li h5{
+                color: #50d54b;
+                font: 32px/1.2 'actoblack';
+                margin: 0 auto;
+            }
+            .box-numeros ul li span{
+                color: #fff;
+                font: 18px/1.2 'actobook';
+            }
+.main-notas{
+    background-color: #fff;
+    padding: 80px 0 50px;
+}
+    .ctn-notas{
+        margin: 0 auto;
+        max-width: 1000px;
+    }
+    .box-item{
+        display: inline-block;
+        margin: 20px 50px;
+        max-width: 350px;     
+        position: relative;   
+        vertical-align: top;
+    }
+        .box-item h4{
+            line-height: 1;
+            margin: 20px auto 10px;
+            max-width: 100%;
+            text-align: left;
+        }
+            .box-item h4 a{
+                color: #000;
+                font: 16px/1.2 'actobold';
+                text-align: left;
+                text-decoration: none;
+            }
+                .box-item h4 a:hover{
+                    text-decoration: underline;
+                }
+        .item{
+            display: inline-block;
+            margin: 0 auto;
+            max-width: 500px;
+            vertical-align: top;
+        }        
+            .item.juego{
+                max-width: 1000px;
+            }
+        .solo{
+            max-width: 100%;
+        }
+        .box-item p{
+            font: 16px/1.2 'actobook';
+            margin: 5px auto 20px;
+            max-width: 100%;
+        }
+        .oscuro{
+            background-color: #000 !important;
+            color: #fff !important;
+            font: 16px/1.2 'actobold';
+            margin: 20px 0;
+            padding: 5px;
+        }
+
+@media only screen and (max-width: 640px) {  
+
+    .box-portada h1{
+        font-size: 3rem;
+        padding: 0 20px;
+    }
+    .box-portada h2{
+        padding: 0 20px;
+    }
+    .bg-nino{
+        left: 20%;
+    }
+    .bg-familia{
+        right: 20%;
+    }
+    .box-iframe{
+        max-width: 90%;
+    }
+        .box-iframe iframe{
+            height: 350px;
+        }
+    .box-especial video{
+        max-width: 90%;
+    }
+    .box-numeros ul li{
+        margin: 20px;
+    }
+
+
+}
