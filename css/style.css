@@ -216,6 +216,7 @@ html {
     .box-numeros h4{
         color: #fff;
         font: 44px/1 'liquid_amber_demoregular';
+        margin: 50px auto 30px;
         text-align: center;
     }
     .box-numeros ul{
