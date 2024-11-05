@@ -193,6 +193,7 @@ html {
         border: 1px solid #50d54b;
         border-radius: 10px;
         color: #282723;
+        cursor: pointer;
         display: block;
         font: 32px/1 'liquid_amber_demoregular';
         margin: 40px auto;
