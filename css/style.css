@@ -86,7 +86,6 @@ html {
                     text-indent: -9999px;
                     width: 36px;
                 }
-
                 #wst {
                     background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/wsp-icon.png?v2) no-repeat 0 0 !important;
                     background-size: 100% !important;
@@ -96,7 +95,6 @@ html {
                     text-indent: -9999px;
                     width: 36px;
                 }
-
                 #tw {
                     background: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/personas-desaparecidas/img/tw-icon.png?v2) no-repeat 0 0 !important;
                     background-size: 100% !important;
@@ -106,7 +104,26 @@ html {
                     text-indent: -9999px;
                     width: 36px;
                 }
-
+.box-logos{
+    margin: 10px auto;
+    text-align: center;
+}
+    .box-logos img{
+        display: inline-block;
+        margin: 0 10px;
+        max-width: 120px;
+        vertical-align: middle;
+    }
+        img.logo-america{
+            max-width: 45px;
+        }
+    .separador{
+        background-color: #fff;
+        display: inline-block;
+        height: 50px;
+        vertical-align: middle;
+        width: 1px;
+    }
 .box-portada{
     text-align: center;
 }
@@ -280,6 +297,9 @@ html {
 
 @media only screen and (max-width: 640px) {  
 
+    #wst {
+        display: inline-block;
+    }
     .box-portada h1{
         font-size: 3rem;
         padding: 0 20px;
