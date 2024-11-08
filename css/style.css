@@ -216,7 +216,7 @@ body#especial{
     }
 .box-numeros{
     background: url('../img/bg-verde.webp') no-repeat center top;
-    background-size: 100%;
+    background-size: cover;
     height: 655px;
     margin: 0 auto;
     position: relative;
