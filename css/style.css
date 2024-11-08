@@ -248,13 +248,13 @@ html{
             box-sizing: border-box;
             display: inline-block;
             margin: 0 10px;
-            max-width: 190px;
+            min-height: 150px;
             padding: 10px;
             vertical-align: top;
         }
             .box-numeros ul li h5{
                 color: #000;
-                font: 46px/1.2 'liquid_amber_demoregular';
+                font: 42px/1 'liquid_amber_demoregular';
                 margin: 0 auto;
             }
             .box-numeros ul li span{
