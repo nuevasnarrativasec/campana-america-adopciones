@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/puerto-de-chancay/css/examples.css?v3">
     <link rel="stylesheet" href="./css/style.css?v6"> 
 </head>
-<body>
+<body id="especial">
 
     <div class="box-logos">
         <img class="logo-ecdata" src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/ecdata/img/logo-ecdata.png" alt="" width="100%">
@@ -14,33 +14,51 @@
         <img class="logo-america" src="./img/logo-america.png" alt="" width="100%">
     </div>
     <div id="social">
-        <button id="fb" class="sharer button" data-sharer="facebook" data-hashtag="" data-url="https://elcomercio.pe/peru/tablas-de-sarhua-herencia-viva-de-un-pueblo-que-pinta-su-historia-en-ayacucho-preservar-raices-revalorar-colegio-generaciones-especdis-noticia/">Facebook</button>
+        <button id="fb" class="sharer button" data-sharer="facebook" data-hashtag="" data-url="#">Facebook</button>
 
-        <button id="wst" class="sharer button" data-sharer="whatsapp" data-title="Perú | El Comercio" data-url="https://elcomercio.pe/peru/tablas-de-sarhua-herencia-viva-de-un-pueblo-que-pinta-su-historia-en-ayacucho-preservar-raices-revalorar-colegio-generaciones-especdis-noticia/">Whatsapp</button>
+        <button id="wst" class="sharer button" data-sharer="whatsapp" data-title="Perú | El Comercio" data-url="#">Whatsapp</button>
 
-        <button id="tw" class="sharer button" data-sharer="twitter" data-title="Perú | El Comercio" data-hashtags="" data-via="elcomercio_peru" data-url="https://elcomercio.pe/peru/tablas-de-sarhua-herencia-viva-de-un-pueblo-que-pinta-su-historia-en-ayacucho-preservar-raices-revalorar-colegio-generaciones-especdis-noticia/">Twitter</button>
+        <button id="tw" class="sharer button" data-sharer="twitter" data-title="Perú | El Comercio" data-hashtags="" data-via="elcomercio_peru" data-url="#">Twitter</button>
     </div>
 
     <div class="box-portada"> 
         <div class="box-texto-portada">
             <h1>
-                La realidad de las adopciones en el Perú
+                En Perú, miles de niños se quedan sin hogar, pero tú puedes hacer un cambio
             </h1>
-            <h2>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here',</h2>
+            <div class="box-iframe">
+                <iframe src="https://www.youtube-nocookie.com/embed/rdbkM_zJQ0U?modestbranding=1&rel=0&iv_load_policy=3&color=white" width="100%" height="350" title="Juntémonos más, ayudémonos más: Ansiedad" frameborder="0" allowfullscreen></iframe>
+            </div>
         </div> 
-        <div class="ctn-animacion">
-            <img class="bg-nino" src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/img/bg-nino-3.png?v2" alt="">  
-            <img class="bg-familia" src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/img/bg-familia-3.png?v2" alt="">     
-        </div>
         <div class="clear"></div>
     </div>
 
-    <div class="box-iframe">
-        <iframe src="https://www.youtube-nocookie.com/embed/rdbkM_zJQ0U?modestbranding=1&rel=0&iv_load_policy=3&color=white" width="100%" height="450" title="Juntémonos más, ayudémonos más: Ansiedad" frameborder="0" allowfullscreen></iframe>
+    <div class="box-numeros">
+        <div class="ctn-box-numeros">
+            <h4>números de ayuda</h4>
+            <ul>
+                <li>
+                    <h5>626 1600</h5>
+                    <span>Central Telefónica del MIMP</span>
+                </li>
+                <li>
+                    <h5>105</h5>
+                    <span>Número de orientación del MIMP</span>
+                </li>
+                <li>
+                    <h5>105</h5>
+                    <span>Número de orientación del MIMP</span>
+                </li>
+                <li>
+                    <h5>105</h5>
+                    <span>Número de orientación del MIMP</span>
+                </li>
+            </ul>
+        </div>        
     </div>
 
     <div class="box-especial">
-        <img src="https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/img/logo-especial-2.png" alt="" width="100%">
+        <img src="./img/logo-adopciones.png" alt="" width="100%">
         
         <video src="./video/especial.mp4" muted playisline></video>        
         <h3>
@@ -48,29 +66,7 @@
                 mira nuestro especial
             </a>            
         </h3>
-    </div>
-
-    <div class="box-numeros">
-        <h4>números de ayuda</h4>
-        <ul>
-            <li>
-                <h5>626 1600</h5>
-                <span>Central Telefónica del MIMP</span>
-            </li>
-            <li>
-                <h5>105</h5>
-                <span>Número de orientación del MIMP</span>
-            </li>
-            <li>
-                <h5>105</h5>
-                <span>Número de orientación del MIMP</span>
-            </li>
-            <li>
-                <h5>105</h5>
-                <span>Número de orientación del MIMP</span>
-            </li>
-        </ul>
-    </div>
+    </div>    
 
     <div class="main-notas">
 
@@ -202,37 +198,6 @@
         document.querySelectorAll('.sharer').forEach(button => {
             button.addEventListener('click', shareUrl);
         });
-    </script>
-
-    <!-- animacion familia -->
-    <script>
-        // bg niño
-        var controller = new ScrollMagic.Controller();       
-        new ScrollMagic.Scene({
-            triggerElement: ".bg-nino",
-            triggerHook: 0.5,
-        })
-            .on("enter", function(event) {
-                $(".bg-nino").addClass("salir-nino-izquierda"); 
-            })
-            .on("leave", function(event) {
-                $(".bg-nino").removeClass("salir-nino-izquierda"); 
-            })
-            .addTo(controller); 
-
-        // bg familia
-        var controller = new ScrollMagic.Controller();       
-        new ScrollMagic.Scene({
-            triggerElement: ".bg-nino",
-            triggerHook: 0.5,
-        })
-            .on("enter", function(event) {
-                $(".bg-familia").addClass("salir-familia-derecha"); 
-            })
-            .on("leave", function(event) {
-                $(".bg-familia").removeClass("salir-familia-derecha"); 
-            })
-            .addTo(controller); 
     </script>
 
     <!-- autoplay video -->

@@ -1,7 +1,5 @@
 body, 
 html {	
-    background-image: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/img/bg-main.jpg);
-    background-size: 100%;    
     box-sizing: border-box;    
     font-style: normal;
     font-weight: normal;
@@ -11,6 +9,10 @@ html {
 
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+body#especial{
+    background-image: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/img/bg-main.jpg);
+    background-size: 100%;    
 }
 
 @font-face {
@@ -130,14 +132,14 @@ html {
 }
     .box-texto-portada{
         margin: 0 auto;
-        margin-top: 200px;
-        max-width: 600px;
+        margin-top: 100px;
+        max-width: 750px;
     }
         .box-portada h1{
-            color: #50d54b;
+            color: #fff;
             font: 64px/1 'liquid_amber_demoregular';
             margin: 0 auto;
-            max-width: 500px;
+            max-width: 100%;
             text-align: center;
         }
         .box-portada h2{
@@ -182,12 +184,14 @@ html {
     max-width: 800px;
 }
 .box-especial{
-
+    background-color: #fff;
+    margin-top: -10px;
+    padding: 50px 0;
 }
     .box-especial img{
         display: block;
         margin: 0 auto;
-        max-width: 250px;
+        max-width: 350px;
     }
     .box-especial h3 a{
         background-color: #50d54b;
@@ -203,20 +207,31 @@ html {
         text-align: center;
         text-decoration: none;
     }
-    .box-especial video{
-        border: 2px solid #fff;        
-        box-shadow: 0px 0px 15px #7f7f7f;
+    .box-especial video{      
+        box-shadow: 0px 0px 20px #5b5b5b;
         box-sizing: border-box;
         display: block;
-        margin: 20px auto;
-        max-width: 980px;        
+        margin: 30px auto;
+        max-width: 620px;        
     }
 .box-numeros{
-    margin: 80px auto;
+    background: url('../img/bg-verde.webp') no-repeat center top;
+    background-size: 100%;
+    height: 655px;
+    margin: 0 auto;
+    position: relative;
+    filter: drop-shadow(0 -10px 5px #111111);
 }
+    .ctn-box-numeros{
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 40%;
+        width: 100%;        
+    }
     .box-numeros h4{
-        color: #fff;
-        font: 44px/1 'liquid_amber_demoregular';
+        color: #000;
+        font: 52px/1 'liquid_amber_demoregular';
         margin: 50px auto 30px;
         text-align: center;
     }
@@ -225,7 +240,7 @@ html {
         text-align: center;
     }
         .box-numeros ul li{
-            border: 1px solid #50d54b;
+            border: 1px dashed #000;
             border-radius: 10px;
             box-sizing: border-box;
             display: inline-block;
@@ -235,13 +250,13 @@ html {
             vertical-align: top;
         }
             .box-numeros ul li h5{
-                color: #50d54b;
-                font: 32px/1.2 'actoblack';
+                color: #000;
+                font: 46px/1.2 'liquid_amber_demoregular';
                 margin: 0 auto;
             }
             .box-numeros ul li span{
-                color: #fff;
-                font: 18px/1.2 'actobook';
+                color: #000;
+                font: 22px/1.2 'liquid_amber_demoregular';
             }
 .main-notas{
     background-color: #fff;
@@ -307,7 +322,7 @@ html {
         text-align: left;
     }
     .box-portada h1{
-        font-size: 3rem;
+        font-size: 2rem;
         padding: 0 20px;
     }
     .box-portada h2{
@@ -336,6 +351,18 @@ html {
     }
     .box-item p{
         font: 18px / 1.4 'actobook';
+    }
+    .box-numeros{
+        background-size: cover;
+        height: 950px;
+    }
+        .ctn-box-numeros{
+            left: 0;
+            transform: inherit;
+            top: 5%;
+        }
+    .box-especial img{
+        max-width: 250px;
     }
 
 }
