@@ -10,7 +10,10 @@ html {
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-body#especial{
+html{
+    background-color: #fff;
+}
+#main{
     background-image: url(https://d1ts5g4ys243sh.cloudfront.net/proyectos_especiales_prod/especiales-multimedia/adopciones-peru/img/bg-main.jpg);
     background-size: 100%;    
 }
@@ -58,7 +61,7 @@ body#especial{
     margin: 20px;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 150px;
     z-index: 600;
 }
     #social ul {
@@ -131,9 +134,9 @@ body#especial{
     text-align: center;
 }
     .box-texto-portada{
-        margin: 0 auto;
-        margin-top: 100px;
+        margin: 0 auto;        
         max-width: 750px;
+        padding-top: 100px;
     }
         .box-portada h1{
             color: #fff;
@@ -202,7 +205,7 @@ body#especial{
         display: block;
         font: 32px/1 'liquid_amber_demoregular';
         margin: 40px auto;
-        max-width: 220px;
+        max-width: 250px;
         padding: 10px;
         text-align: center;
         text-decoration: none;
@@ -313,6 +316,11 @@ body#especial{
             padding: 5px;
         }
 
+.mb-20,
+.mt-20{
+    background-color: #fff !important;
+}
+
 @media only screen and (max-width: 640px) {  
 
     #wst {
@@ -363,6 +371,9 @@ body#especial{
         }
     .box-especial img{
         max-width: 250px;
+    }
+    #social{
+        top: 110px;
     }
 
 }
