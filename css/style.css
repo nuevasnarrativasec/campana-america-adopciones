@@ -215,7 +215,7 @@ body#especial{
         max-width: 620px;        
     }
 .box-numeros{
-    background: url('../img/bg-verde.webp') no-repeat center top;
+    background: url('https://nuevasnarrativasec.github.io/campana-america-adopciones/img/bg-verde.webp') no-repeat center top;
     background-size: cover;
     height: 655px;
     margin: 0 auto;
